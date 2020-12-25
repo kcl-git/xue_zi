@@ -1,0 +1,28 @@
+.bg_gray{background-image: linear-gradient(to bottom,#EEEDED,#6C757D);}
+.list{
+	text-align: center;
+	/* width: 236px;
+	height: 373px; */
+	background-color: rgb(255,255,255);
+}
+.btn_midle_number{width: 15%;}
+.list-btn1{
+	width: 1.5rem;height: 1.5rem;
+	border: 0;outline: 0;
+	color: white;
+	font-weight: bolder;
+	line-height: 1;
+	padding-top: 0;
+	padding-bottom: 0.25rem;
+}
+ .page-item+.page-item{
+	margin-left: 0.5rem;
+}
+/*.pagination{padding-left: 23rem;} */
+.page-link{
+	border-radius: 10% !important;
+}
+.page-link:focus{
+	box-shadow: 0 0 0 transparent;
+}
+.active .page-link{background: ;}

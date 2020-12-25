@@ -1,0 +1,32 @@
+.breadcrumb-item + .breadcrumb-item::before{
+	content: ">";
+}
+.breadcrumb-item{
+	font-size: 0.625rem;
+	color: black;
+	}
+	.w-15{
+		width: 15%;
+	}
+	.my_shadow{
+		box-shadow: 0 -1px 8px 3px #ccc;
+	}
+	.btn-outline-secondary{
+		border-radius:0 ;
+		margin: 2px;
+		font-size: 0.8rem;
+	}
+	.btn-outline-secondary:hover{
+		background-color: transparent;
+		color: #0aa1ed;
+		border-color: #0aa1ed;
+	}
+	.btn-outline-secondary:active{
+		background-color: transparent;
+		color: #999 !important;
+		border-color: #0aa1ed !important;
+	}
+
+	/* .good_picture{
+		height: 28.5rem;
+	} */

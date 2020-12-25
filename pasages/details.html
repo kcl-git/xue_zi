@@ -1,0 +1,86 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/popper.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<link href="../css/detail.css" rel="stylesheet" />
+		<link href="../css/common.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container ">
+			<div data-ride="carousel" class="carousel mt-3" id="demo">
+				<!-- 1.轮播的图片 -->
+				<!-- carousel-inner 相对定位 宽度100% 溢出隐藏 -->
+				<div class="carousel-inner">
+					<!-- carousel-item隐藏 过渡 
+					.carousel-item.active两个类都执行的时候显示
+					-->
+					<div class="carousel-item active"><img src="../img/header/banner2.png" class="w-100 rounded"/> </div>
+					<div class="carousel-item"><img src="../img/header/banner4.png" class="w-100 rounded"/> </div>
+					<div class="carousel-item"><img src="../img/header/banner2.png" class="w-100 rounded"/> </div>
+					<div class="carousel-item"><img src="../img/header/banner3.png" class="w-100 rounded"/> </div>
+				</div>
+				<!-- 2.轮播指示器 -->
+				<ul class="carousel-indicators">
+					<li data-target="#demo" data-slide-to="0" class="active"></li>
+					<li data-target="#demo" data-slide-to="1"></li>
+					<li data-target="#demo" data-slide-to="2"></li>
+					<li data-target="#demo" data-slide-to="3"></li>
+				</ul>
+				<!-- 3.左右箭头 -->
+				<a href="#demo" class="carousel-control-next" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+				<a href="#demo" class="carousel-control-prev" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+			</div>
+			<!-- 1f -->
+			<p class="mt-2 border-bottom pb-2">
+				<img src="../img/header/computer_icon.png" />
+				<span class="h4 ml-3">首页推荐/1F</span>
+			</p>
+			<div class="row no-gutters">
+				<div class="col-lg-8 col-sm-12">
+					<div class="top_height mr-lg-1 mb-lg-1 mr-sm-0 mb-sm-1 p-5">
+						<div class="position-relative">
+						  <h3>Apple MacBook</h3>
+						  <h3>Air系列</h3>
+						  <p class="text-muted fontsize_p">酷睿双核i5处理器|256GB SSD|8GB内存|英特尔HD显卡620含共享显卡内存</p>
+						  <p class="text-success">￥6988.00</p>
+						  <a href="#" class="btn btn-success">查看详情</a>
+						</div>
+						<div class="position-absolute pp">
+							<img src="../img/header/study_computer_img1.png" />
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-12">
+					<div class="top_height mb-lg-1 mb-sm-1"></div>
+				</div>
+			</div>
+			<div class="row no-gutters">
+				<div class="col-lg-5 col-sm-12">
+					<div class="bottom_height mr-lg-1 mr-sm-0 mb-sm-1"></div>
+				</div>
+				<div class="col-lg-7">
+					<div class="row no-gutters">
+						<div class="col-4">
+							<div class="bottom_height mr-lg-1"></div>
+						</div>
+						<div class="col-4">
+							<div class="bottom_height mr-lg-1"></div>
+						</div>
+						<div class="col-4">
+							<div class="bottom_height"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
